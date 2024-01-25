@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="agenda.css">
+  <title>Agenda de Estudos</title>
+</head>
+<body>
+
+    
+    <div class="logo">
+        <figure>
+            <img src="../Img/logo.png" alt="logo.png">
+
+        </figure>
+    </div>  <br>
+
+    
+
+  <div class="container">
+    <h1>Agenda de Estudos</h1>
+    <input type="date" id="datePicker">
+    <textarea id="taskInput" placeholder="Adicione sua tarefa"></textarea>
+    <button onclick="addTask()">Adicionar Tarefa</button>
+    <button onclick="goToMenu()">Voltar para o Menu</button>
+    <button onclick="deleteAllTasks()">Excluir Todas as Tarefas</button>
+
+   
+    <div id="taskList"></div>
+  </div>
+  
+
+  <script src="agenda.js"></script>
+  <footer>
+    <p>&copy; 2024 MyStudies.com Todos os direitos reservados </p>
+</footer>
+</body>
+</html>

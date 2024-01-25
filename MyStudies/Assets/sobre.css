@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b2e1ec;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+figure img {
+    width: 150px; /* ajuste o tamanho conforme necessário */
+}
+
+header {
+    background-color: #000000; /* cor de fundo do cabeçalho */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(255, 253, 253); /* cor do texto */
+}
+
+#conteudo {
+    padding: 20px;
+    text-align: left; /* ajusta o alinhamento do texto */
+    max-width: 800px; /* adiciona uma largura máxima para o bloco de conteúdo */
+    margin: 0 auto; /* centraliza o bloco horizontalmente */
+}
+
+h2 {
+    font-size: 1.3em; /* reduzi o tamanho da fonte para 1.3em */
+    color: black; /* cor do texto */
+    border-bottom: 2px solid #000; /* Adiciona uma linha inferior para dividir h2 */
+    padding-bottom: 5px; /* Adiciona um espaço abaixo da linha para melhorar a aparência */
+}
+
+p {
+    font-size: 1em; /* reduzi o tamanho da fonte para 1em */
+    color: rgb(0, 0, 0); /* cor do texto */
+    line-height: 1.5;
+}
+
+ul {
+    font-size: 1em; /* reduzi o tamanho da fonte para 1em */
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Adicionando transição na cor de fundo do botão */
+    margin-top: 20px; /* Adicionando margem ao topo do botão */
+    display: block; /* Certificando-se de que o botão está em uma nova linha */
+    margin: 0 auto; /* Centralizando o botão horizontalmente */
+}
+
+button:hover {
+    background-color: #60c309;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

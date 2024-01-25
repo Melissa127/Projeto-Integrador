@@ -1,0 +1,117 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #b2e1ec;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+    background-color: #c5c5c7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #b8f1c6;
+}
+
+#e,
+#v {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#user-info {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #a19797;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b2f1d3;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#espaco {
+    padding: 20px;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    max-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    transition: width 0.3s, max-height 0.3s;
+}

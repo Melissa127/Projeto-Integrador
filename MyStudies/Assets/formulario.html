@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+
+    <title>Document</title>
+
+     
+    <div class="container">
+        <figure>
+            <img src="../Img/logo.png" alt="logo.png">
+
+        </figure>
+    </div>  <br>
+    
+</head>
+<body>
+
+<header class="cabecalho">
+    <h2> Formulário de Contato </h2>
+</header>
+
+<main>
+    <section>
+        <article>
+            <form name="formulario" onsubmit="return validarFormulario()">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+
+                <label for="reclamacao">Reclamação:</label>
+                <input type="text" name="reclamacao" id="reclamacao">
+                <br><br>
+
+
+                <label for="sugestao">Sugestão:</label>
+                <input type="text" name="sugestao" id="sugestao">
+                <br><br>
+
+                <label for="elogio">Elogio:</label>
+                <input type="text" name="elogio" id="elogio">
+                <br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+
+            <div id="e">
+                <button onclick="exibirInformacoes()">Exibir Informações</button> 
+            </div>
+            <br>
+
+            <div id="v">
+                <button onclick="logout()">Voltar</button>
+            </div>
+        </article>
+    </section>
+</main>
+<div id="v">
+    <button onclick="voltarAoMenu()">Voltar ao Menu</button>
+</div>
+
+
+
+<footer>
+    <p>&copy; 2024 MyStudies.com Todos os direitos reservados</p>
+</footer>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
