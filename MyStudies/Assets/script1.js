@@ -59,7 +59,7 @@ function validarLogin() {
     if (email.trim() === armazenadoEmail.trim() && senha.trim() === armazenadoSenha) {
         alert("Login bem-sucedido!");
       
-        window.location.href = "index.html";
+        window.location.href = "menu.html";
     } else {
         alert("E-mail ou senha incorretos.");
     }
@@ -77,6 +77,6 @@ function exibirInformacoesUsuario() {
 }
 function voltarLogin() {
    
-    window.location.href = "login.html"; 
+    window.location.href = "index.html"; 
 }
 

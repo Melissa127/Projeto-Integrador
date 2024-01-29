@@ -98,6 +98,6 @@ function exibirInformacoes() {
 
 function logout() {
    
-    window.location.href = "index.html"; 
+    window.location.href = "menu.html"; 
 }
 

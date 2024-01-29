@@ -112,7 +112,7 @@ document.getElementById('taskList').addEventListener('click', function(event) {
 // Adicionei a função goToMenu
 function goToMenu() {
   // Redireciona para o arquivo menu.html
-  window.location.href = 'index.html';
+  window.location.href = 'menu.html';
 }
 
 window.onload = function() {
